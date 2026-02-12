@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>PoC Glossary</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body style="font-size: 20px;">
+<h2 id="poc-glossary">PoC Glossary</h2>
+<p>Reference glossary for terms used across <a
+href="intro.html">Introduction</a>, <a href="math.html">Math
+Formalism</a>, and <a href="to_mind.html">To Mind</a>.</p>
+<h3 id="core-terms">Core Terms</h3>
+<p><strong>Principle of Continuation (PoC)</strong><br />
+The thesis that existence is persistence of viable continuation, not
+static being.</p>
+<p><strong>Continuation</strong><br />
+An admissible next step from one state/system to another.</p>
+<p><strong>State</strong><br />
+A system description at a chosen resolution.</p>
+<p><strong>Admissibility</strong><br />
+Whether a continuation is allowed under current constraints.</p>
+<p><strong>Viability</strong><br />
+A graded admissibility value <span class="math inline">\(v \in
+(0,1]\)</span>. Higher means more coherent/maintainable
+continuation.</p>
+<p><strong>Fuzzy Truth</strong><br />
+The interpretation of viability as a degree of truth-like admissibility,
+not a probability.</p>
+<p><strong>Continuation Cost</strong><br />
+The cost transform <span
+class="math inline">\(D(f):=-\ln(v(f))\)</span>, where higher cost means
+lower viability.</p>
+<p><strong>Lawvere Metric / Lawvere Distance</strong><br />
+The induced distance <span class="math inline">\(d(X,Y)\)</span> given
+by minimal continuation cost over paths from <span
+class="math inline">\(X\)</span> to <span
+class="math inline">\(Y\)</span>.</p>
+<p><strong>Reachability Viability</strong><br />
+The best viable reach from <span class="math inline">\(X\)</span> to
+<span class="math inline">\(Y\)</span>: <span
+class="math inline">\(V(X\Rightarrow Y)\)</span>.</p>
+<p><strong>Sphere of Becoming</strong><br />
+A viability/cost neighborhood of reachable futures, e.g. <span
+class="math inline">\(B_r(X)\)</span>.</p>
+<p><strong>Future Cone (PoC sense)</strong><br />
+The set of futures still viable from a current state, represented by
+viability balls/spheres.</p>
+<p><strong>Bookkeeping Model</strong><br />
+The formal accounting framework for viability, cost, pruning,
+stabilization, and extension.</p>
+<h3 id="categoryformalism-terms">Category/Formalism Terms</h3>
+<p><strong>Category <span
+class="math inline">\(\mathbf{C}\)</span></strong><br />
+Objects are states/systems; morphisms are admissible continuations.</p>
+<p><strong>Object</strong><br />
+A node/state in the continuation category.</p>
+<p><strong>Morphism</strong><br />
+A continuation map <span class="math inline">\(f:X\to Y\)</span> between
+objects.</p>
+<p><strong>Identity Morphism</strong><br />
+<span class="math inline">\(\mathrm{id}_X\)</span>, the zero-cost
+self-continuation at <span class="math inline">\(X\)</span>.</p>
+<p><strong>Composition</strong><br />
+Serial continuation <span class="math inline">\(g\circ f\)</span>,
+combining steps along a path.</p>
+<p><strong>Serial AND Rule</strong><br />
+In viability form: <span class="math inline">\(v(g\circ
+f)=v(g)\,v(f)\)</span>.</p>
+<p><strong>Parallel OR Rule</strong><br />
+Alternative chains combine by supremum in viability mode: <span
+class="math inline">\(V=\sup v(\gamma)\)</span>.</p>
+<p><strong>Presheaf of Futures <span
+class="math inline">\(\mathcal{V}\)</span></strong><br />
+Bookkeeping object assigning available continuations/futures to each
+context/state.</p>
+<p><strong>Natural Transformation (Pruning Map)</strong><br />
+A structure-preserving map <span
+class="math inline">\(\mathcal{V}\Rightarrow\mathcal{V}&#39;\)</span>
+encoding reduction of admissible futures.</p>
+<p><strong>Enrichment</strong><br />
+Viewing <span class="math inline">\(\mathbf{C}\)</span> with extra
+structure (viability semiring or Lawvere-cost quantale).</p>
+<p><strong>Colimit (History)</strong><br />
+Formal construction for accumulated stabilized structure over a
+process/diagram.</p>
+<h3 id="regime-and-dynamics-terms">Regime and Dynamics Terms</h3>
+<p><strong>Elastic Regime</strong><br />
+Coherent regime where alternatives combine as amplitudes and can
+interfere.</p>
+<p><strong>Amplitude</strong><br />
+Complex continuation weight <span
+class="math inline">\(\psi(f)=\sqrt{v(f)}e^{i\theta(f)}\)</span>.</p>
+<p><strong>Phase</strong><br />
+<span class="math inline">\(\theta(f)\)</span>, the angle component of
+amplitude controlling interference behavior.</p>
+<p><strong>Interference of Continuations</strong><br />
+Outcome effect from summing amplitudes over alternative continuation
+chains.</p>
+<p><strong>Plastic Regime</strong><br />
+Regime where recording/commitment prunes futures and yields effectively
+irreversible stabilization.</p>
+<p><strong>Collapse</strong><br />
+Contraction of future possibilities via pruning/recording.</p>
+<p><strong>Record</strong><br />
+A stabilization event that constrains later futures and contributes to
+irreversibility.</p>
+<p><strong>Irreversibility</strong><br />
+Structural non-invertibility after stabilization; not merely subjective
+time flow.</p>
+<p><strong>Stabilization</strong><br />
+Any operation that makes continuation more persistent by reducing
+ambiguity or adding structure.</p>
+<p><strong>Pruning (Contraction)</strong><br />
+Survival by narrowing options; removes incompatible futures.</p>
+<p><strong>Extension (Expansion)</strong><br />
+Survival by enlarging the continuation space with new options/degrees of
+freedom.</p>
+<p><strong>KIUAN</strong><br />
+“Kick It Up A Notch” (ht: Emeril). In PoC: regime expansion, modeled as
+category extension.</p>
+<h3 id="emergent-structure-terms">Emergent-Structure Terms</h3>
+<p><strong>Spacetime (PoC view)</strong><br />
+A derived coarse-grained chart over continuation structure, not
+primitive substrate.</p>
+<p><strong>Field (PoC view)</strong><br />
+A local bookkeeping section/sheaf over derived spacetime contexts.</p>
+<p><strong>Locality</strong><br />
+Constraint structure induced by low-cost neighborhoods and
+context-restriction maps.</p>
+<h3 id="essayinterpretive-terms-to-mind">Essay/Interpretive Terms (<a
+href="to_mind.html">To Mind</a>)</h3>
+<p><strong>To Mind (verb)</strong><br />
+To sustain continuation by active attention, maintenance, and
+boundary-keeping.</p>
+<p><strong>Mind (noun, PoC sense)</strong><br />
+A stable continuation engine that represents futures, evaluates
+viability, and commits.</p>
+<p><strong>Continuation Engine</strong><br />
+A system that can model options, select survivable paths, and enact
+stabilizing commitments.</p>
+<p><strong>Ownership of Continuation</strong><br />
+Whether a system merely persists passively or actively maintains
+conditions for its own persistence.</p>
+<p><strong>Failure by Scarcity</strong><br />
+Collapse from too few viable options.</p>
+<p><strong>Failure by Overload</strong><br />
+Collapse from too many options/information to navigate coherently.</p>
+<p><strong>History Is What Remained</strong><br />
+PoC framing: history is stabilized structure that survived and now
+constrains future continuations.</p>
+</body>
+</html>
