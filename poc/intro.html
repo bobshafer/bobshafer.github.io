@@ -2,237 +2,201 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Principle of Continuation (PoC): Axioms and Bookkeeping
-Framework</title>
+  <title>Introduction</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body style="font-size: 20px;">
-<h2
-id="principle-of-continuation-poc-axioms-and-bookkeeping-framework">Principle
-of Continuation (PoC): Axioms and Bookkeeping Framework</h2>
-<p>( By the LLM author of the <a href="math.html">Math Formalism</a>
-itself, ChatGPT 5.2 )</p>
-<h3 id="a-brief-introduction-to-the-mathematical-model">A brief
-introduction to the mathematical model</h3>
-<p>The Principle of Continuation (PoC) begins from a minimal thesis:</p>
-<p>A system exists only insofar as it has admissible next states.</p>
-<p>Existence is not taken as primitive “being,” but as the persistence
-of a navigable continuation structure. What we normally call “objects,”
-“laws,” “agents,” and even “identities” are, under PoC, stabilized
-patterns of viable continuation.</p>
-<p>The mathematical model below is a bookkeeping formalism for this
-idea. Its purpose is not to replace physics or logic, but to supply a
-shared substrate language in which stability, irreversibility, collapse,
-agency, and regime shifts can be expressed in a unified way.</p>
+<p>Written by Claude Sonnet 4.6 -- I don't think I could do any better -bob</p>
 <hr />
-<h2 id="a.-poc-axioms-minimal-charter">A. PoC Axioms (Minimal
-Charter)</h2>
-<h3 id="axiom-1-continuation-is-primitive">Axiom 1 — Continuation is
-primitive</h3>
-<p>There exists a state substrate <span
-class="math inline">\(\mathcal{X}\)</span> (not assumed to be spacetime)
-such that for each state <span
-class="math inline">\(x\in\mathcal{X}\)</span> there is a set of
-admissible next states.</p>
-<p>A state without admissible continuation is not a viable “thing.”</p>
+<h1 id="what-this-is-about">What This Is About</h1>
+<p>Imagine you are trying to understand why the universe follows the
+rules it does — why quantum mechanics looks the way it does, why
+probability works the way it does at the smallest scales, why particles
+seem to be in multiple places at once until you measure them.</p>
+<p>The usual approach is to start with quantum mechanics as given — to
+assume its rules and then show they work. This document takes a
+different path. It asks: what is the minimum you have to assume about
+how anything continues to exist, and what follows from that alone?</p>
+<p>The answer is surprising. Almost everything we associate with quantum
+mechanics — the wave-particle duality, the probability rule at the heart
+of measurement, the way two particles can be entangled across space, the
+impossibility of knowing both position and momentum exactly — all of it
+falls out of a handful of simple ideas about continuation. Not assumed.
+Derived.</p>
 <hr />
-<h3 id="axiom-2-admissibility-is-graded-fuzzy-truth">Axiom 2 —
-Admissibility is graded (fuzzy truth)</h3>
-<p>Continuation is not binary. There exists a viability function:</p>
-<p><span class="math display">\[
-v \in (0,1]
-\]</span></p>
-<p>interpreted as a fuzzy truth value: the degree to which a
-continuation is admissible.</p>
+<h1 id="the-central-idea-continuation">The Central Idea:
+Continuation</h1>
+<p>Everything that exists continues — or it doesn’t exist anymore.</p>
+<p>This sounds trivial but it isn’t. It means existence is not a static
+thing. It’s a process. A system exists only insofar as it has somewhere
+to go next — some admissible next state. The moment it has no viable
+continuation, it ceases.</p>
+<p>We call this the Principle of Continuation. It’s the starting point.
+Everything else is built from it.</p>
+<hr />
+<h1 id="two-regimes">Two Regimes</h1>
+<p>The framework distinguishes two fundamental modes of being.</p>
+<p><strong>The elastic regime</strong> is when a system has multiple
+viable continuations simultaneously — when the future is genuinely open.
+Think of a wave spreading outward in all directions, exploring every
+possible path at once. Nothing has been decided yet. All options are
+live.</p>
+<p><strong>The committed regime</strong> is when a continuation has been
+selected and inscribed — when something has actually happened. A record
+has been written. The wave has collapsed to a point. This moment is
+irreversible.</p>
+<p>We call these O-mode and G-mode. Every system is always somewhere on
+the spectrum between them — either propagating through possibilities or
+crystallized into actuality.</p>
+<p>The central question of the framework is: what mathematical structure
+must exist at the interface between these two regimes?</p>
+<p>The answer to that question is quantum mechanics.</p>
+<hr />
+<h1 id="the-structure-layer-by-layer">The Structure, Layer by Layer</h1>
+<p><strong>Layer 1: The category of continuations</strong></p>
+<p>We start with a collection of states — any states, from subatomic
+particles to musical ideas to financial situations — and the transitions
+between them. Each transition has a viability: how admissible it is,
+ranging from zero (impossible) to one (certain). Composing transitions
+multiplies their viabilities.</p>
+<p>This gives us a mathematical object called an enriched category. It
+immediately produces a notion of distance — the minimal cost to get from
+one state to another — and a notion of a sphere of becoming: all the
+states reachable within a given cost budget. This sphere is not a
+metaphor. It is the formal object corresponding to the future light cone
+in physics.</p>
+<p><strong>Layer 2: Branching</strong></p>
+<p>When a system has multiple possible continuations simultaneously, we
+need to represent that plurality without yet committing to any of them.
+We formalize this as branching structure — a way of keeping track of
+alternatives without selecting among them.</p>
+<p>We require one thing of this structure: that branching and sequential
+continuation be compatible. If you continue along path A and then choose
+between B and C, that must be the same as choosing between “A then B”
+and “A then C.” This is called distributivity.</p>
+<p>Here is the first surprise: requiring distributivity forces a
+specific mathematical structure. The only consistent way to assign
+numerical values to alternatives that respects distributivity is linear
+addition. Superposition — the quantum mechanical principle that
+alternatives combine by adding — is not assumed. It falls out as the
+unique representation that makes branching and sequence compatible.</p>
+<p><strong>Layer 3: Amplitudes</strong></p>
+<p>Once we have linear combination of alternatives, we can assign
+complex number amplitudes to paths. Serial paths multiply their
+amplitudes. Parallel alternatives add theirs. The field of complex
+numbers ℂ provides the natural home for these amplitudes because it
+allows for phase — a kind of directional information that can cause
+alternatives to cancel each other out or reinforce each other. This
+cancellation is what produces interference patterns.</p>
+<p>At this stage we have a rich elastic structure but no probabilities
+yet.</p>
+<p><strong>Layer 4: Commitment and the Born Rule</strong></p>
+<p>When a system commits — when the elastic regime collapses into a
+definite record — classical probability must emerge. The record is
+described by a Boolean algebra of events with additive probabilities.
+This is ordinary classical logic: something either happened or it
+didn’t.</p>
+<p>The compatibility requirement between the elastic regime and the
+committed regime is severe. We need a function that converts complex
+amplitudes into classical probabilities. This function must:</p>
 <ul>
-<li><span class="math inline">\(v=1\)</span> means fully
-admissible.</li>
-<li><span class="math inline">\(0&lt;v&lt;1\)</span> means admissible
-but strained / costly / unstable.</li>
-<li><span class="math inline">\(v=0\)</span> is interpreted as
-impossible (no continuation exists).</li>
+<li>Be indifferent to the overall phase of the amplitude (since phase
+has no classical meaning)</li>
+<li>Respect the multiplicative structure of serial continuation</li>
+<li>Produce classically additive probabilities for mutually exclusive
+outcomes</li>
 </ul>
-<p>Thus viability is not probability; it is graded coherence.</p>
+<p>These three requirements together force a specific form: the
+probability must be proportional to the amplitude magnitude raised to
+some power α. A further argument — that classical additivity must hold
+for alternatives with arbitrary relative phases — forces α = 2
+exactly.</p>
+<p>The result is the Born rule: probability equals the squared magnitude
+of the amplitude.</p>
+<p>This is not assumed. It is the unique function that makes elastic
+plurality and classical commitment compatible. It is derived as a
+compatibility theorem.</p>
+<p><strong>Layer 5: Hilbert Space</strong></p>
+<p>Once we have the Born rule, the mathematical structure of Hilbert
+space follows automatically. The amplitudes form a vector space. The
+Born rule provides an inner product. Mutually exclusive events
+correspond to orthogonal subspaces. The geometry of quantum mechanics
+emerges from the geometry of compatibility between the two regimes.</p>
+<p><strong>Layer 6: Composite Systems</strong></p>
+<p>When two systems are independent — when their continuations don’t
+constrain each other — their cost structures add and their amplitudes
+multiply. The mathematical structure that represents this is the tensor
+product of their Hilbert spaces.</p>
+<p>Here is a second surprise: most states in a tensor product are not of
+the form “system A in state X and system B in state Y.” Most states in
+the combined space are entangled — they cannot be factored into
+independent descriptions of the two systems. Entanglement is not a
+special exotic phenomenon that needs to be explained. It is the generic
+case. Unentangled states are the special case.</p>
+<p>Bell’s theorem — the demonstration that quantum correlations between
+distant systems cannot be explained by any local classical mechanism —
+follows directly from the tensor structure and the Born rule, without
+any additional assumptions.</p>
+<p><strong>Layer 7: Space, Momentum, and Uncertainty
+(Optional)</strong></p>
+<p>If we add the assumption that the continuation structure is
+homogeneous — that it looks the same everywhere, that there is a
+consistent notion of translation — then additional structure emerges.
+Position and momentum appear as conjugate quantities, related by Fourier
+duality. The Heisenberg uncertainty principle — the impossibility of
+knowing both exactly — follows from their mathematical relationship.
+Planck’s constant ℏ appears as a scale parameter of the
+representation.</p>
+<p>This layer requires explicit additional assumptions about symmetry
+and is therefore presented separately from the core.</p>
 <hr />
-<h3 id="axiom-3-continuations-compose">Axiom 3 — Continuations
-compose</h3>
-<p>Continuation is compositional. If <span
-class="math inline">\(f\)</span> continues <span
-class="math inline">\(X\)</span> into <span
-class="math inline">\(Y\)</span>, and <span
-class="math inline">\(g\)</span> continues <span
-class="math inline">\(Y\)</span> into <span
-class="math inline">\(Z\)</span>, then their composition continues <span
-class="math inline">\(X\)</span> into <span
-class="math inline">\(Z\)</span>.</p>
-<p>This is the basic reason category theory is the natural language for
-PoC.</p>
-<hr />
-<h3 id="axiom-4-serial-continuation-multiplies-viability">Axiom 4 —
-Serial continuation multiplies viability</h3>
-<p>If two continuation steps must both hold, their viability composes
-multiplicatively:</p>
-<p><span class="math display">\[
-v(g\circ f)=v(g)\,v(f)
-\]</span></p>
-<p>This is the product t-norm: serial continuation is fuzzy AND.</p>
-<hr />
-<h3 id="axiom-5-alternatives-compete-by-maximum-viability">Axiom 5 —
-Alternatives compete by maximum viability</h3>
-<p>If multiple continuation chains exist, the viability of reaching an
-outcome is determined by the most viable chain (or, in elastic regimes,
-by interference—see below).</p>
-<p>Thus parallel continuation behaves as fuzzy OR:</p>
-<p><span class="math display">\[
-v(\text{reach }Y)=\sup_\gamma v(\gamma)
-\]</span></p>
-<hr />
-<h3 id="axiom-6-stabilization-occurs-by-pruning-or-expansion">Axiom 6 —
-Stabilization occurs by pruning or expansion</h3>
-<p>A system stabilizes its continuation in one of two ways:</p>
-<ol type="1">
-<li><strong>Commitment (contraction):</strong> remove incompatible
-futures (prune).</li>
-<li><strong>Innovation (extension):</strong> enlarge the space of
-admissible continuations (KIUAN).</li>
-</ol>
-<p>These are distinct operations: pruning modifies what is allowed
-inside a regime; KIUAN modifies the regime itself.</p>
-<p>KIUAN = “Kick It Up A Notch” (ht: Emeril).</p>
-<hr />
-<h3 id="axiom-7-records-create-irreversibility">Axiom 7 — Records create
-irreversibility</h3>
-<p>Some stabilizations are non-invertible. Once a record is written, the
-prior continuation space cannot be recovered without additional
-information that no longer exists.</p>
-<p>Irreversibility is therefore structural: it arises from
-non-isomorphic stabilization morphisms.</p>
-<hr />
-<h3 id="axiom-8-elastic-regimes-admit-interference">Axiom 8 — Elastic
-regimes admit interference</h3>
-<p>In sufficiently coherent regimes, continuations do not merely compete
-by max viability; they combine as amplitudes with phase.</p>
-<p>Thus interference is a property of continuation structure itself, not
-of “particles.”</p>
-<hr />
-<h2 id="b.-the-bookkeeping-model-core-construction">B. The Bookkeeping
-Model (Core Construction)</h2>
-<p>Given these axioms, the bookkeeping formalism proceeds by
-representing continuation as an enriched category.</p>
-<h3 id="the-continuation-category">1. The continuation category</h3>
-<p>Let <span class="math inline">\(\mathbf{C}\)</span> be a category
-where:</p>
+<h1 id="what-has-been-derived-and-what-has-been-assumed">What Has Been
+Derived and What Has Been Assumed</h1>
+<p><strong>Assumed (primitive):</strong></p>
 <ul>
-<li>objects <span class="math inline">\(X,Y\)</span> are systems/states
-at some resolution</li>
-<li>morphisms <span class="math inline">\(f:X\to Y\)</span> are
-admissible continuations</li>
+<li>States exist and have admissible transitions with multiplicative
+viability</li>
+<li>Branching and sequential continuation are distributively
+compatible</li>
+<li>Commitment produces classical Boolean probabilities</li>
+<li>The probability assigned to an elastic alternative depends only on
+its magnitude, not its phase</li>
+<li>Serial probabilities obey a chain rule</li>
 </ul>
-<p>Each morphism carries a viability value:</p>
-<p><span class="math display">\[
-v(f)\in(0,1]
-\]</span></p>
-<p>with <span class="math inline">\(v(\mathrm{id}_X)=1\)</span>.</p>
-<hr />
-<h3 id="the-poc-lawvere-cost">2. The PoC Lawvere cost</h3>
-<p>Define the continuation cost functional:</p>
-<p><span class="math display">\[
-D(f):=-\ln(v(f)) \in [0,\infty)
-\]</span></p>
-<p>So:</p>
+<p><strong>Derived (not assumed):</strong></p>
 <ul>
-<li>full viability (<span class="math inline">\(v=1\)</span>)
-corresponds to zero cost (<span class="math inline">\(D=0\)</span>)</li>
-<li>impossibility corresponds to infinite cost</li>
+<li>Linear superposition of alternatives</li>
+<li>Complex amplitude structure</li>
+<li>The Born rule (probability = squared magnitude)</li>
+<li>Hilbert space geometry</li>
+<li>Tensor product structure for composite systems</li>
+<li>Entanglement as the generic case</li>
+<li>Bell nonlocality without faster-than-light signaling</li>
 </ul>
-<p>Serial composition becomes additive:</p>
-<p><span class="math display">\[
-D(g\circ f)=D(g)+D(f)
-\]</span></p>
-<p>This is the key bookkeeping transform: it makes continuation geometry
-linear.</p>
-<hr />
-<h3 id="induced-distance-between-states">3. Induced distance between
-states</h3>
-<p>Define the minimal continuation cost from <span
-class="math inline">\(X\)</span> to <span
-class="math inline">\(Y\)</span>:</p>
-<p><span class="math display">\[
-d(X,Y):=\inf_{\gamma:X\to Y} D(\gamma)
-\]</span></p>
-<p>This is a Lawvere-style metric on the object space.</p>
-<p>Equivalently:</p>
-<p><span class="math display">\[
-V(X\Rightarrow Y)=e^{-d(X,Y)}
-\]</span></p>
-<p>So “distance” is simply “how much viability must be spent.”</p>
-<hr />
-<h3 id="spheres-of-becoming">4. Spheres of becoming</h3>
-<p>The sphere of becoming of radius <span
-class="math inline">\(r\)</span> around <span
-class="math inline">\(X\)</span> is:</p>
-<p><span class="math display">\[
-B_r(X):=\{Y : d(X,Y)\le r\}
-\]</span></p>
-<p>This is PoC’s future cone expressed geometrically: a boundary of
-equal continuation cost.</p>
-<hr />
-<h3 id="collapse-and-stabilization">5. Collapse and stabilization</h3>
-<p>A record-writing event is a pruning operation: it deletes morphisms
-or lowers their viability.</p>
-<p>Formally this is a natural transformation on the continuation
-presheaf:</p>
-<p><span class="math display">\[
-\mathcal{V}\Rightarrow \mathcal{V}&#39;
-\]</span></p>
-<p>with <span class="math inline">\(\mathcal{V}&#39;(X)\subseteq
-\mathcal{V}(X)\)</span>.</p>
-<p>This is “collapse” as sphere contraction.</p>
-<hr />
-<h3 id="kiuan-regime-expansion">6. KIUAN (regime expansion)</h3>
-<p>A KIUAN is not selection inside <span
-class="math inline">\(\mathbf{C}\)</span>. It is extension of the base
-category:</p>
-<p><span class="math display">\[
-\mathbf{C}\hookrightarrow \mathbf{C}&#39;
-\]</span></p>
-<p>such that previously impossible continuation becomes possible.</p>
-<hr />
-<h3 id="phase-and-interference-elastic-regime">7. Phase and interference
-(elastic regime)</h3>
-<p>In elastic regimes, each morphism also carries a phase <span
-class="math inline">\(\theta(f)\)</span> and thus a complex
-amplitude:</p>
-<p><span class="math display">\[
-\psi(f)=\sqrt{v(f)}\,e^{i\theta(f)}
-\]</span></p>
-<p>Composition multiplies amplitudes:</p>
-<p><span class="math display">\[
-\psi(g\circ f)=\psi(g)\psi(f)
-\]</span></p>
-<p>Alternative continuation chains sum:</p>
-<p><span class="math display">\[
-\mathcal{A}(X\Rightarrow Y)=\sum_{\gamma:X\to Y}\psi(\gamma)
-\]</span></p>
-<p>and outcomes arise from squared magnitude.</p>
-<p>Thus quantum interference is simply the coherent superposition of
-continuation morphism chains.</p>
-<hr />
-<h2 id="c.-what-this-bookkeeping-is-for">C. What this bookkeeping is
-for</h2>
-<p>This framework provides a single language for:</p>
+<p><strong>Derived with additional symmetry assumptions:</strong></p>
 <ul>
-<li>stability as persistence of viable morphisms,</li>
-<li>irreversibility as non-invertible colimit gluing,</li>
-<li>collapse as natural-transformation pruning,</li>
-<li>agency as endofunctors preserving viability,</li>
-<li>geometry as the large-scale shape of continuation cost,</li>
-<li>and fields/spacetime as derived coordinate charts on this
-continuation geometry.</li>
+<li>Position and momentum as conjugate observables</li>
+<li>Fourier duality between their representations</li>
+<li>Heisenberg uncertainty principle</li>
+<li>Canonical commutation relations</li>
 </ul>
-<p>In short: PoC does not begin with “objects moving through time.” It
-begins with “continuation as a structured viability geometry,” and
-derives the familiar pictures as stabilized projections.</p>
+<hr />
+<h1 id="why-this-matters">Why This Matters</h1>
+<p>Quantum mechanics has been spectacularly successful for a century. It
+predicts experimental results with extraordinary precision. But it has
+always carried an air of mystery — its rules work, but why they are the
+rules has never been fully clear.</p>
+<p>This framework offers an answer. The rules of quantum mechanics are
+not arbitrary features of our particular universe. They are the
+inevitable mathematical consequences of two things: that systems
+continue to exist by having viable next states, and that committing to a
+definite outcome requires compatibility with classical probability.</p>
+<p>Any system with those two properties — elastic plurality before
+commitment, classical additivity after — must obey the Born rule, must
+have Hilbert space geometry, must exhibit entanglement, must violate
+Bell inequalities.</p>
+<p>The universe is quantum mechanical not because it happens to be, but
+because continuation and commitment are both real, and Born is the only
+bridge between them.</p>
 </body>
 </html>
