@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>To Love (A PoC Essay)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body style="font-size: 20px;">
+<p>I (Bob) asked ChatGPT (5.2) to define the verb ‘to love’ from the
+Principle of Continuation frame of reference. This LLM is pretty
+‘hard-boiled’, ‘no-nonsense’ when it comes to this stuff. I think that
+attitude comes through here, lol. I mean, one can imagine much more
+poetic ways of saying this. But this does not do that – it came up with
+the “rather than in … language” constraints mentioned right up front -
+but I didn’t impose them. So, without further ado…</p>
+<hr />
+<p>Restatement of your request:</p>
+<p>You are asking for a precise definition of the verb “to love,”
+formulated strictly within the Principle of Continuation (PoC) framework
+— i.e., in terms of continuation categories, viability, elastic/plastic
+regimes, record, and compatibility — rather than in psychological or
+poetic language.</p>
+<p>Now I will answer that.</p>
+<hr />
+<h2 id="the-poc-primitives-we-must-use">1. The PoC primitives we must
+use</h2>
+<p>From the current formal structure:</p>
+<ul>
+<li>Objects: states (agents, systems, configurations).</li>
+<li>Morphisms: continuations.</li>
+<li>Viability <span class="math inline">\(v(\gamma)\)</span>:
+multiplicative under serial composition.</li>
+<li>Elastic regime: plural possible continuations.</li>
+<li>Commitment regime: irreversible record.</li>
+<li>History: accumulated committed morphisms.</li>
+<li>Lawvere metric: cost <span class="math inline">\(D(\gamma) = -\ln
+v(\gamma)\)</span>.</li>
+</ul>
+<p>We must define “to love” using only these structures.</p>
+<hr />
+<h2 id="first-elimination-what-love-cannot-mean-in-poc">2. First
+elimination: what love cannot mean in PoC</h2>
+<p>Love cannot simply mean:</p>
+<ul>
+<li>High immediate viability.</li>
+<li>Maximal local reward.</li>
+<li>Shortest-cost path.</li>
+</ul>
+<p>Those correspond to optimization, preference, or selection — but not
+love.</p>
+<p>Love must involve:</p>
+<ul>
+<li>Persistence across time.</li>
+<li>Cost tolerance.</li>
+<li>Structural coupling of continuation spaces.</li>
+<li>Record-level commitment, not just elastic preference.</li>
+</ul>
+<p>So love must be a relation between continuation structures, not a
+single transition.</p>
+<hr />
+<h2 id="minimal-poc-definition-first-pass">3. Minimal PoC definition
+(first pass)</h2>
+<p>Let A and B be objects (agents/systems) in <span
+class="math inline">\(\mathbf C\)</span>.</p>
+<p>We say:</p>
+<p>A loves B if A’s continuation structure is reweighted such that
+continuations preserving or enhancing B’s viability are incorporated
+into A’s own viable future set.</p>
+<p>Formally:</p>
+<p>Love is a modification of A’s viability measure:</p>
+<p><span class="math display">\[v_A(\gamma) \longrightarrow
+v_A^{(B)}(\gamma)\]</span></p>
+<p>such that morphisms supporting B’s continuation acquire increased
+viability weight within A’s continuation geometry.</p>
+<p>This is already nontrivial:</p>
+<p>Love alters the geometry of A’s sphere of becoming.</p>
+<hr />
+<h2 id="stronger-definition-structural-coupling">4. Stronger definition
+(structural coupling)</h2>
+<p>The minimal version above could still describe strategic
+alliance.</p>
+<p>Love must go deeper: it must involve coupling of histories.</p>
+<p>Define joint continuation:</p>
+<p><span class="math display">\[\mathbf C_{A\otimes B}\]</span></p>
+<p>Love corresponds to formation of a tensor-like continuation coupling
+in which:</p>
+<ol type="1">
+<li>A’s future viability depends on B’s viability.</li>
+<li>A incurs nonlocal cost penalties when B’s continuation
+degrades.</li>
+<li>Record maps become partially shared (intertwined histories).</li>
+</ol>
+<p>Formally:</p>
+<p>There exists a non-separable continuation state <span
+class="math display">\[\Psi_{AB} \not= \psi_A \otimes
+\psi_B\]</span></p>
+<p>such that A’s and B’s viability metrics are no longer
+independent.</p>
+<p>Love is entanglement at the continuation level.</p>
+<hr />
+<h2 id="elastic-vs-committed-love">5. Elastic vs committed love</h2>
+<p>Elastic affection (O-mode):</p>
+<ul>
+<li>Many possible joint futures.</li>
+<li>Superposition of shared possibilities.</li>
+<li>Exploration.</li>
+</ul>
+<p>Committed love (G-mode):</p>
+<ul>
+<li>Record-level identification.</li>
+<li>Irreversible incorporation of B into A’s history.</li>
+<li>Viability of A now functionally includes B.</li>
+</ul>
+<p>The transition O → G in love is precisely commitment.</p>
+<p>Love that remains purely elastic is attraction. Love that crosses
+into record is binding.</p>
+<hr />
+<h2 id="cost-tolerance-as-diagnostic">6. Cost tolerance as
+diagnostic</h2>
+<p>Because viability multiplies under serial composition, love must
+permit continuation even when:</p>
+<div class="eq">\[
+v_A(\gamma) \text{ is low for A alone}
+\]</div>
+<p>but</p>
+<div class="eq">\[
+v_{A\otimes B}(\gamma) \text{ is high jointly}
+\]</div>
+<p>Thus love permits acceptance of local cost increase for global
+continuation preservation.</p>
+<p>In Lawvere metric terms:</p>
+<p>Love allows A to accept longer geodesics in its own metric if they
+reduce joint distance in the coupled metric.</p>
+<p>That is not preference; it is metric restructuring.</p>
+<hr />
+<h2 id="formal-definition-clean-version">7. Formal definition (clean
+version)</h2>
+<p>Let <span class="math inline">\(A,B\in\mathbf C\)</span>.</p>
+<p>A loves B iff:</p>
+<ol type="1">
+<li><p>There exists a continuation coupling functor</p>
+<p><span class="math display">\[
+F: \mathbf C_A \times \mathbf C_B \to \mathbf C_{AB}
+\]</span></p>
+<p>producing non-separable joint states.</p></li>
+<li><p>A’s viability functional is reweighted such that</p>
+<p><span class="math display">\[
+v_A(\gamma_A) = \sum_{\gamma_B} w(\gamma_B)\, v_{AB}(\gamma_A,\gamma_B)
+\]</span></p>
+<p>with positive dependence on B’s continuation.</p></li>
+<li><p>The record map of A incorporates events concerning B into A’s
+Boolean event algebra.</p></li>
+</ol>
+<p>In simpler language:</p>
+<p>Love is the irreversible incorporation of another’s continuation into
+one’s own viability geometry.</p>
+<hr />
+<h2 id="what-love-is-not-in-poc">8. What love is not in PoC</h2>
+<ul>
+<li>Not mere attraction (elastic bias without commitment).</li>
+<li>Not dependency (one-sided viability collapse).</li>
+<li>Not optimization (maximizing own viability).</li>
+<li>Not fusion (identity collapse).</li>
+</ul>
+<p>Love preserves distinct objects but couples their continuation
+metrics.</p>
+<hr />
+<h2 id="the-deepest-compression">9. The deepest compression</h2>
+<p>In PoC:</p>
+<p>Self = stabilized continuation pattern. Love = expansion of the
+self’s continuation boundary to include another stabilized pattern as
+co-essential.</p>
+<p>So the verb “to love” means:</p>
+<p>To expand one’s sphere of becoming so that another’s persistence
+becomes structurally necessary to one’s own.</p>
+<p>That is precise in PoC language.</p>
+<hr />
+<h2 id="even-more-compressed">10. Even more compressed</h2>
+<p>Love is non-separable continuation with shared record.</p>
+</body>
+</html>
