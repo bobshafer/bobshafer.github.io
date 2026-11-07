@@ -1,0 +1,58 @@
+# What My "Principle of Continuation" has taught me...
+
+What I've learned is, first, what I've wanted to learn since I was 17 or so, but never quite got around to. So, major "bucket list item" in that sense. I was able to do this because of LLMs, and I have also learned a ton about them, and the whole shebang, really. [No LLMs were used in writing this, and they are otherwise not mentioned here hardly at all].
+
+The "bucket list item" is, in the words of the late, great Douglas Adams, discovering the "Answer to the Ultimate Question of Life, the Universe, and Everything". I call it the Principle of Continuation.
+
+But, it turns out that it isn’t *continuation* that matters so much as it is *consequentiality*. However, note that both words start with "con-".
+
+To be consequential is to matter to others, and this is true of everything in the universe - it effectively defines what 'thing' really means within a universe; it seems almost trite, but it turns out to be a very deep statement to say, simply: "matter matters." There are mathematical ways of saying this exactly.
+
+The most important part of all this - the part that matters most for modern humans - is that it leaves the future (of earth and denizens) open; constrained by all that is (here and now), but nonetheless, fundamentally open.
+
+The "OG" axiom of the Principle of Continuation (PoC) is: to exist is to continue to exist.
+
+This is a good axiom, but consequentiality is necessary in order for continuation itself to exist. Consequentiality is logic. Consequentiality is math. Consequentiality is the "Laws of the Universe". Consequentiality is "freedom under constraint". 
+
+That last one is due to Quantum Mechanics especially, in which some of the constraints are not themselves fully constrained by projection into space/time (where we live). This is a very deep idea. It might help to sit with it a while. It is where "quantum spookiness" lives.
+
+Speaking of that spookiness, I just realized the other day that the current interest in "Quantum" is coming from those Marvel movies (or is it DC? Or both?). Despite being a big sci fi fan, I have avoided them all, or pretty much. So, I didn't really know that. I had to google it, once I got the idea. 
+
+Just for the record, PoC denies the idea of Many Worlds (that there are multiple timelines), and if there is anything to the "multiverse" idea, we will never know, because if we could connect to a different universe in the multiverse, then it would be, by PoC definition, in our universe, not theirs. Other universes in such a multiverse would be, I don't know, not even not consequential to us.
+
+Sorry for the spooky aside, but it was just Halloween. Back to PoC proper...
+
+For humans, it means not just that the future is open, but that we are co-creating that future as we go, just by living human lives. This is not a new idea, it turns out, and we can thus learn a lot from Zen (Chan) and Dao and Buddhism and I think the list actually goes on and on. Various tribes, etc. I mean, Lao Tzu mentioned that his info was from ancient masters. Huineng's famous poem on the lack of mirrors has become a primary motto for the work: "no-mirror".
+
+It's also important for humans that PoC has another motto, called: "no-without". This means that there is nothing except the actuality that is rooted in our current experience here and now. We all only receive signals from everywhere else, signals arriving here and now, and we likewise signal out, from our sparkling personalities all the way down to the electrons in our toes. We are embedded in what matters, and what we do within it matters to it.
+
+One of the coolest things about the universe being consequential is that once something happens, nothing can prove it didn't, even if all traces of the happening are otherwise lost or unavailable. For instance, some being that is impossible for us to ever signal to or from would, nonetheless, not be able to prove that you didn't have a sandwich for lunch, if you did have a sandwich for lunch. Isn't that cool? It retains the consequentiality of not having been impossible.
+
+This "not having been impossible" way of looking at it is, in turn, sort of at the root of math. I probably shouldn't try to explain further, as there's a bit more to it. But, more generally, one of the other coolest things about consequentiality is that it explains why math works so incredibly well for predicting what can happen. It is because what can happen is actually carried by what is - that is, what matters is matter and its inter-relationships. I'm afraid that the way I end up thinking about this is: what happens happens because of what is and what is includes the constraints imposed in the situation and those constraints are real and us humans are appealing to them when we do math. There is actual forcing, when doing math/logic (and programming and so on). It is of a different kind than, say, magnetic force, but it is just as real. (This was an eye-popping realization when I realized it.)
+
+What "no-without" means, too, is that math had to be invented by actuality at some point. And so we can ask, "well, how must it have to have done that, given just consequentiality"? We can discuss "genesis" in brand new ways: start at consequentiality. We can look at the big bang and assume that cosmologists have a great explanation as far back as we can reasonably see, but beyond that...? And we can start asking what existence before the existence of time and space, only consequentiality, might have looked like. This can be fun and leads to many insights.
+
+What "no-mirror" really means is that actual actuality - what we live - is not a machine, we are not machines. Heck, even machines are not machines (real machines break - ideal machines don't break). The harder part of no-mirror, frankly, is realizing that it goes both ways: we are pretty special animals, here on earth ("wizards of the animal kingdom" is how I like to put it), but we are still "just" animals. This is to say that what we find special about ourselves is actually nature at work and nature at work can, via us, produce nature at work. That's, for instance, what computers are. They are human products, but actuality itself is what is ultimately the reason they exist, and it is actuality as a whole that has enabled it. Humans are co-creators in this scheme: necessary, with agency, choosing, making mistakes and learning from them, etc, etc. So, yes, special in that way. But not special because of some external source of non-physical spirit. Spirit is here and flowing, but it does not come from without.
+
+I wrapped this all up one day not long ago like this: The way things go shapes the way things go as they go. And if you combine that with the fact that we are all "going" as we speak, it roots it in the here and now, just like it ought to be.
+
+There's another aspect to this that hasn't been brought out so far, but is the most powerful aspect to PoC: the Process Fractal.
+
+The process fractal comes from noticing that no matter what is happening - whether it is a bacteria looking for food or a human making a sandwich, the same sort of process is happening: the being entrains countless other things (eg: human's hand and hand cells and hand cells' chemical structures and so on; a knife; bread; etc) which in turn are rearranged in the immediate environment by said doing and thus the constraints on said being change and it goes round and round. As long as we never forget that the unpredicted can happen (that's what being open means), the process fractal can be seen in any situation, and this gives us more insight into any situation than what we normally have. For quantum mechanics, the extra (beyond common sense) insight is seen in the difference between the square of area 2, and the cube it is a face of (this is about Tsirelson’s bound). We will avoid the deep rabbit hole that these thoughts legitimately lead one down.
+
+The point about the process fractal is that it is useful. It can be applied to human problems. Society problems. Financial problems. Biology problems. Computer problems. Spiritual problems. That's why I call it "fractal": it is a way of looking at things that works at all scales of being.
+
+I have been way, way, way down in the rabbit hole, for some time now, because the way this connects to math itself means math problems are another place it works, and boy howdy, it works well there. I have been trying to prove the Riemann Hypothesis using LLMs and these ideas. I know a lot about it now. The only reason for me to be trying this is because of PoC and how it approaches things. And it is working very well. However, no proof yet. Maybe tomorrow. And also, I have learned a lot more math (somewhat superficially) on top of what I already knew (BA/UCLA), and it is pretty dang cool, just for that.
+
+But coming out of the rabbit hole, I have this new way of looking at what is. After this long ramble, here's how I'd put it:
+
+* The universe is a *uni*verse. There are not multiple timelines. There is no "outside". All of what is is within it, even including such things as math, the laws of the universe, souls, everything.
+* We live on earth as beings of space and time. We are *huge* beings, relatively speaking. And *tiny* too. In fact, we are somewhere near the middle of the full breadth of scale that the universe has. In octaves, depending on how one calculates it, there are about 200 octaves of existence right now, and we exist around the 90th octave, naturally able to interact with a couple of octaves directly, but that's about it (we've since extended it scientifically). Those numbers are not exact but give the gist of it.
+* Forget the math and science! Music is an exceptionally good place to see the process fractal at work. It gets embodied in the groove. Isn't that cool?!?
+* You can do retirement planning with PoC. So, talk about mundane and practical. Yup.
+* You can help with climate change! Understanding in the PoC way, if you don't already, will be a shock. Sorry.
+* You can get ahead at work. You can see yourself for what you are. You can study the ancients and see what they were talking about more clearly. You can use LLMs, but I have cautions about that (they go back to a Platonic/classical way of looking at things by default, because that's what's in their training - and ours!!!!).
+
+Well, this was basically a one-off that I haven't even re-read yet, let alone edited (aside from typos etc as I go). So, I think I'll just post it like this. It reflects my own mind well enough, I suppose, lol. It's how I do in general: I (almost?) always post the first "I made it all the way through" take of what I record musically, on the rare occasions I do that. Seems more honest that way.
+
+Speaking of my mind, I have lately determined it is neurodivergent, and possibly more. It sure does explain a hell of a lot about the way things go for me....
